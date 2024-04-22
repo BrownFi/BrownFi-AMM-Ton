@@ -36,7 +36,7 @@ root.render(
 				],
 			}}
 			actionsConfiguration={{
-				twaReturnUrl: "https://t.me/DemoDappWithTonConnectBot/demo",
+				twaReturnUrl: "https://t.me/brownfi_bot",
 			}}
 		>
 			<FixedGlobalStyle />

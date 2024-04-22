@@ -44,9 +44,10 @@ const BodyWrapper = styled.div`
 const HeaderWrapper = styled.div`
 	${({ theme }) => theme.flexRowNoWrap}
 	justify-content: space-between;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	z-index: 2;
+	width: 100%;
 `;
 
 function App() {

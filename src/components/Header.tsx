@@ -19,7 +19,6 @@ const HeaderFrame = styled.div<{
 	flex-direction: row;
 	width: 100%;
 	top: 0;
-	position: relative;
 	padding: 20px 44px;
 	z-index: 21;
 	position: relative;
@@ -56,7 +55,7 @@ const HeaderElement = styled.div`
 	height: 56px;
 	display: flex;
 	align-items: center;
-
+	width: 100%;
 	font-family: Montserrat;
 	/* addresses safari's lack of support for "gap" */
 	& > *:not(:first-child) {
