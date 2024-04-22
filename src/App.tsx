@@ -1,8 +1,9 @@
-// import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import "@twa-dev/sdk";
+import styled from "styled-components";
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import styled from "styled-components";
 import BannerImg from "/images/background-1.png";
 import BannerImg2 from "/images/background-2.png";
 import Pool from "./components/Pool";
